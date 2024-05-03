@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style_list_games.css') }}">
+    <title>Избранное</title>
+</head>
+<body>
+    <h1>Игры</h1>
+    <div id="game_container" class="game">
+    </div>
+
+    <script src="{{ url_for('static', filename= 'get_games.js') }}"></script>
+</body>
+</html>
